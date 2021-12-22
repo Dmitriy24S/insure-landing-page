@@ -267,17 +267,17 @@ footer {
     background-image: none;
     height: auto;
     padding: 0;
-    gap: 0;
+    gap: 0.5rem;
   }
   .menu ul li {
-    padding: 0.5rem 0.7rem;
+    padding: 0.5rem;
   }
   .menu li:last-child {
     border: 2px solid black;
     font-weight: 700;
     background: transparent;
     color: black;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
   /* main */
   h1 {
@@ -407,9 +407,11 @@ footer {
     border-bottom: none;
   }
   .footer-links {
+    width: 85%;
     flex-direction: row;
-    width: 100%;
-    gap: 6rem;
+    align-self: flex-start;
+    justify-content: space-between;
+    text-align: left;
   }
   /* desktop hover */
   @media (hover) {
