@@ -249,6 +249,9 @@ footer {
 /* desktop */
 @media (min-width: 768px) {
   /* header */
+  header {
+    padding: 2rem 3.5rem;
+  }
   .hamburger-menu {
     display: none;
   }
@@ -267,7 +270,7 @@ footer {
     gap: 0;
   }
   .menu ul li {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.7rem;
   }
   .menu li:last-child {
     border: 2px solid black;
@@ -308,8 +311,8 @@ footer {
     background-image: url(images/image-intro-desktop.jpg);
     background-size: contain;
     width: auto;
-    height: 650px;
-    left: 0;
+    height: 580px;
+    left: 1rem;
     right: 2.5rem;
     top: 66px;
     bottom: 0;
@@ -329,6 +332,7 @@ footer {
     background-image: none;
     margin-right: auto;
     text-align: left;
+    padding: 6rem 3.5rem;
   }
   .dark-bg:nth-child(1) .text h1 {
     position: relative;
@@ -370,21 +374,27 @@ footer {
   }
   /* white bg */
   .white-bg {
-    padding-top: 9rem;
-  }
-  .white-bg {
     align-items: start;
     text-align: start;
+    padding: 9rem 3.5rem 6rem;
   }
   .white-bg h1:before {
     right: initial;
+  }
+  .white-bg h1 {
+    padding: 2.5rem 4rem 4rem;
   }
   .text-wrapper {
     display: flex;
     gap: 1.5rem;
     align-items: flex-start;
+    width: 85%;
+    margin: 0 auto;
   }
   /* footer desktop */
+  footer {
+    padding: 6rem 3.5rem;
+  }
   .footer-top-wrapper {
     display: flex;
     justify-content: space-between;
